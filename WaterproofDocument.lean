@@ -21,7 +21,7 @@ Edit this line.
 $$`E = mc^2`
 
 ```lean
-Example "ATC - 006"
+Example "ATC - 007"
   Given:
   Assume:
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
@@ -40,7 +40,7 @@ QED
 ```
 
 ```lean
-Example "ATC - 007"
+Example "ATC - 008"
   Given:
   Assume:
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
@@ -66,25 +66,6 @@ QED
 :::
 
 ```lean
-Example "ATC - 008"
-  Given:
-  Assume:
-  Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
-Proof:
-```
-
-:::input
-
-```lean
-  sorry
-```
-:::
-
-```lean
-QED
-```
-
-```lean
 Example "ATC - 009"
   Given:
   Assume:
@@ -104,7 +85,27 @@ QED
 ```
 
 ```lean
-Example "ATC - 011"
+--COPY THIS
+Example "ATC - 010"
+  Given:
+  Assume:
+  Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
+Proof:
+```
+
+:::input
+
+```lean
+  sorry
+```
+:::
+
+```lean
+QED
+```
+
+```lean
+Example "ATC - 012"
   Given:
   Assume:
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
@@ -130,7 +131,7 @@ QED
 ```
 
 ```lean
-Example "ATC - 012"
+Example "ATC - 013"
   Given:
   Assume:
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
@@ -149,7 +150,7 @@ QED
 ```
 
 ```lean
-Example "ATC - 013"
+Example "ATC - 014"
   Given: (f : ℝ → ℝ) (u : ℕ → ℝ) (x₀ : ℝ)
   Assume: (hu :  u converges to x₀) (hf : f is continuous at x₀)
   Conclusion: (f ∘ u) converges to f x₀
@@ -176,7 +177,7 @@ QED
 ```
 
 ```lean
-Example "ATC - 014"
+Example "ATC - 015"
   Given:
   Assume:
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
@@ -196,7 +197,7 @@ QED
 ```
 
 ```lean
-Example "ATC - 015"
+Example "ATC - 016"
   Given:
   Assume:
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
@@ -215,7 +216,7 @@ QED
 ```
 
 ```lean
-Example "ATC - 017"
+Example "ATC - 018"
   Given: (f : ℝ → ℝ) (u : ℕ → ℝ) (x₀ : ℝ)
   Assume: (hu :  u converges to x₀) (hf : f is continuous at x₀)
   Conclusion: (f ∘ u) converges to f x₀
@@ -243,7 +244,32 @@ QED
 
 
 ```lean
-Example "ATC - 019"
+Example "ATC - 020"
+  Given:
+  Assume:
+  Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
+Proof:
+```
+
+:::input
+
+```lean
+  sorry
+  -- help
+```
+:::
+
+```lean
+QED
+```
+
+Markdown
+$$`a^2+b^2=c^2`
+:::hint "Some hint"
+Hello
+:::
+```lean
+Example "ATC - 022"
   Given:
   Assume:
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
