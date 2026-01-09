@@ -100,12 +100,14 @@ Lemma test010:
       ∃ c ∈ ℝ,
         c > b - a.
 Proof.
+(*
 ```
 <input-area>
 ```coq
 ```
 </input-area>
 ```coq
+*)
 Qed.
 ```
 

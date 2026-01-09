@@ -20,6 +20,7 @@ Edit this line.
 
 $$`E = mc^2`
 
+## ATC - 007
 ```lean
 Example "ATC - 007"
   Given:
@@ -27,11 +28,9 @@ Example "ATC - 007"
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
 Proof:
 ```
-
 :::input
-
 ```lean
-sorry
+
 ```
 :::
 
@@ -39,6 +38,7 @@ sorry
 QED
 ```
 
+## ATC - 008
 ```lean
 Example "ATC - 008"
   Given:
@@ -65,6 +65,7 @@ QED
   hello
 :::
 
+## ATC - 009
 ```lean
 Example "ATC - 009"
   Given:
@@ -76,7 +77,7 @@ Proof:
 :::input
 
 ```lean
-  sorry
+
 ```
 :::
 
@@ -84,6 +85,7 @@ Proof:
 QED
 ```
 
+## ATC - 010
 ```lean
 --COPY THIS
 Example "ATC - 010"
@@ -91,19 +93,22 @@ Example "ATC - 010"
   Assume:
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
 Proof:
+/-
 ```
 
 :::input
 
 ```lean
-  sorry
+
 ```
 :::
 
 ```lean
+-/
 QED
 ```
 
+## ATC - 012
 ```lean
 Example "ATC - 012"
   Given:
@@ -111,10 +116,7 @@ Example "ATC - 012"
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
 Proof:
 ```
-
 :::input
-
-
 ```lean
   Fix a : ℝ
   Fix b > 5
@@ -123,13 +125,12 @@ Proof:
   We compute
 
 ```
-
 :::
-
 ```lean
 QED
 ```
 
+## ATC - 013
 ```lean
 Example "ATC - 013"
   Given:
@@ -141,7 +142,7 @@ Proof:
 :::input
 
 ```lean
-  sorry
+
 ```
 :::
 
@@ -149,6 +150,7 @@ Proof:
 QED
 ```
 
+## ATC - 014
 ```lean
 Example "ATC - 014"
   Given: (f : ℝ → ℝ) (u : ℕ → ℝ) (x₀ : ℝ)
@@ -158,7 +160,6 @@ Example "ATC - 014"
 ```
 
 :::input
-
 ```lean
   Let's prove that ∀ ε > 0, ∃ N, ∀ n ≥ N, |f (u n) - f x₀| ≤ ε
   Fix ε > 0
@@ -171,11 +172,11 @@ Example "ATC - 014"
   We conclude by Hu applied to n using that n ≥ N
 ```
 :::
-
 ```lean
 QED
 ```
 
+## ATC - 015
 ```lean
 Example "ATC - 015"
   Given:
@@ -183,19 +184,16 @@ Example "ATC - 015"
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
 Proof:
 ```
-
 :::input
-
 ```lean
   -- Insert a tactic
-  sorry
 ```
 :::
-
 ```lean
 QED
 ```
 
+## ATC - 016
 ```lean
 Example "ATC - 016"
   Given:
@@ -205,9 +203,8 @@ Proof:
 ```
 
 :::input
-
 ```lean
-sorry
+
 ```
 :::
 
@@ -215,6 +212,7 @@ sorry
 QED
 ```
 
+## ATC - 018
 ```lean
 Example "ATC - 018"
   Given: (f : ℝ → ℝ) (u : ℕ → ℝ) (x₀ : ℝ)
@@ -224,7 +222,6 @@ Example "ATC - 018"
 ```
 
 :::input
-
 ```lean
   -- Let's prove that ∀ ε > 0, ∃ N, ∀ n ≥ N, |f (u n) - f x₀| ≤ ε
   Fix ε > 0
@@ -237,12 +234,11 @@ Example "ATC - 018"
   We conclude by Hu applied to n using that n ≥ N
 ```
 :::
-
 ```lean
 QED
 ```
 
-
+## ATC - 020
 ```lean
 Example "ATC - 020"
   Given:
@@ -252,22 +248,22 @@ Proof:
 ```
 
 :::input
-
 ```lean
-  sorry
   -- help
 ```
 :::
-
 ```lean
 QED
 ```
 
 Markdown
 $$`a^2+b^2=c^2`
+
 :::hint "Some hint"
 Hello
 :::
+
+## ATC - 022
 ```lean
 Example "ATC - 022"
   Given:
@@ -275,15 +271,11 @@ Example "ATC - 022"
   Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
 Proof:
 ```
-
 :::input
-
 ```lean
-  sorry
   -- help
 ```
 :::
-
 ```lean
 QED
 ```
