@@ -15,12 +15,14 @@ notation:50 u:80 " converges to " l => sequence_tendsto u l
 
 -- # Header
 
+## ATC - 007
+
 ::::multilean
 Edit this line.
 
 $$`E = mc^2`
 
-## ATC - 007
+
 ```lean
 Example "ATC - 007"
   Given:
@@ -53,7 +55,7 @@ Proof:
   Fix a : ℝ
   Fix b > 5
   Let's prove that b-a+1 works: b - a + 1 > b - a
-  We compute
+
 ```
 :::
 
@@ -61,11 +63,10 @@ Proof:
 QED
 ```
 
-:::hint "Hint for student"
+## ATC - 009
+:::hint "Show hint"
   hello
 :::
-
-## ATC - 009
 ```lean
 Example "ATC - 009"
   Given:
@@ -121,9 +122,7 @@ Proof:
   Fix a : ℝ
   Fix b > 5
   -- Enter the line here
-  Let's prove that b - a works: b - a > b - a
   We compute
-
 ```
 :::
 ```lean
@@ -204,7 +203,7 @@ Proof:
 
 :::input
 ```lean
-
+-- Insert a symbol
 ```
 :::
 
@@ -256,6 +255,7 @@ Proof:
 QED
 ```
 
+## ATC - 022
 Markdown
 $$`a^2+b^2=c^2`
 
@@ -263,7 +263,6 @@ $$`a^2+b^2=c^2`
 Hello
 :::
 
-## ATC - 022
 ```lean
 Example "ATC - 022"
   Given:

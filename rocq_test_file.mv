@@ -27,7 +27,7 @@ Notation "'min(' x , y )" := (Rmin x y)
   (format "'min(' x ,  y ')'").
 ```
 </hint>
-## ATC - 005
+## ATC - 006
 Edit this line
 $$E = mc^2$$
 ```coq
@@ -64,7 +64,7 @@ Take a ∈ ℝ.
 Take b > 5.
 Choose c := b - a + 1.
 { Indeed, c ∈ ℝ. }
-We conclude that c > b - a.
+
 ```
 </input-area>
 ```coq
@@ -72,7 +72,7 @@ Qed.
 ```
 
 ## ATC - 009
-<hint title="Hint for the student">
+<hint title="Hint">
 Hello
 </hint>
 ```coq
@@ -94,20 +94,20 @@ Qed.
 
 ## ATC - 010
 ```coq
+(* COPY THIS *)
 Lemma test010:
   ∀ a ∈ ℝ,
     ∀ b > 5,
       ∃ c ∈ ℝ,
         c > b - a.
 Proof.
-(*
 ```
 <input-area>
 ```coq
+
 ```
 </input-area>
 ```coq
-*)
 Qed.
 ```
 
@@ -125,7 +125,7 @@ Proof.
 ```coq
 Take a ∈ ℝ.
 Take b > 5.
-Choose c := b - a + 1.
+(* Enter the line here *)
 { Indeed, c ∈ ℝ. }
 We conclude that c > b - a.
 ```
@@ -146,7 +146,11 @@ Proof.
 ```
 <input-area>
 ```coq
-<!-- Take a ∈ ℝ. -->
+Take a ∈ ℝ.
+Take b > 5.
+Choose c := b - a + 1.
+{ Indeed, c ∈ ℝ. }
+We conclude that c > b - a.
 ```
 </input-area>
 ```coq
@@ -188,7 +192,7 @@ Proof.
 ```
 <input-area>
 ```coq
-
+(* Insert a tactic *)
 ```
 </input-area>
 ```coq
@@ -207,7 +211,7 @@ Proof.
 ```
 <input-area>
 ```coq
-
+(* Insert a symbol *)
 ```
 </input-area>
 ```coq
@@ -226,6 +230,10 @@ Proof.
 ```
 <input-area>
 ```coq
+Take a ∈ ℝ.
+Take b > 5.
+Choose c := b - a + 1.
+{ Indeed, c ∈ ℝ. }
 
 ```
 </input-area>
@@ -264,7 +272,7 @@ Proof.
 ```
 <input-area>
 ```coq
-
+(* Help *)
 ```
 </input-area>
 ```coq
