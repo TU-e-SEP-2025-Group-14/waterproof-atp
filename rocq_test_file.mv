@@ -253,6 +253,7 @@ Proof.
 ```
 <input-area>
 ```coq
+(* Type on the line below *)
 
 ```
 </input-area>
@@ -272,7 +273,8 @@ Proof.
 ```
 <input-area>
 ```coq
-(* Help *)
+  (* Type 'Help.' on the line below *)
+
 ```
 </input-area>
 ```coq
