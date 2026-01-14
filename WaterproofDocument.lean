@@ -15,11 +15,30 @@ notation:50 u:80 " converges to " l => sequence_tendsto u l
 
 ::::multilean
 
+## ATC - 003
+
+```lean
+Example "ATC - 003"
+  Given:
+  Assume:
+  Conclusion: ∀ a : ℝ, ∀ b > 5, ∃ c, c > b - a
+Proof:
+```
+:::input
+```lean
+
+```
+:::
+
+```lean
+QED
+```
+
+
 ## ATC - 007
-Edit this line.
 
 $$`E = mc^2`
-# HEADER
+Edit this line.
 ```lean
 Example "ATC - 007"
   Given:
@@ -118,7 +137,8 @@ Proof:
 ```lean
   Fix a : ℝ
   Fix b > 5
-  -- Enter the line here
+  -- Type on the line below
+
   We compute
 ```
 :::
@@ -200,7 +220,8 @@ Proof:
 
 :::input
 ```lean
--- Insert a symbol
+-- Insert a symbol on the line below
+
 ```
 :::
 
@@ -220,7 +241,7 @@ Example "ATC - 018"
 :::input
 ```lean
   -- Type on the line below
-  
+
   Fix ε > 0
   By hf applied to ε using that ε > 0 we get δ such that
     (δ_pos : δ > 0) and (Hf : ∀ x, |x - x₀| ≤ δ ⇒ |f x - f x₀| ≤ ε)
@@ -247,7 +268,7 @@ Proof:
 :::input
 ```lean
   -- Type 'help' on the line below
-  
+
 ```
 :::
 ```lean
@@ -255,8 +276,10 @@ QED
 ```
 
 ## ATC - 022
-Markdown
+
 $$`a^2+b^2=c^2`
+
+Markdown
 
 :::hint "Some hint"
 Hello
